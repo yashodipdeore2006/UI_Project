@@ -1,9 +1,9 @@
-import LeftContent from "./LeftContent"
-import RightContent from "./RightContent"
+import LeftContent from './LeftContent'
+import RightContent from './RightContent'
 
 const Page1Content = () => {
   return (
-    <div className="py-3 flex items-center gap-10 h-[90vh] bg-amber-950 px-18">
+    <div className='flex items-center gap-10 px-8 pb-12 pt-8 md:px-12 lg:px-16 xl:gap-12'>
       <LeftContent />
       <RightContent />
     </div>

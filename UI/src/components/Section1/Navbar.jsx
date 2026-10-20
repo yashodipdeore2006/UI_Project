@@ -1,11 +1,14 @@
 
 const Navbar = () => {
   return (
-    <div className='flex items-center justify-between bg-pink-800 py-6 px-16'>
-      <h4 className='bg-black text-white px-5 py-3 rounded-full'>Target Audience</h4>
+    <div className='flex items-center justify-between px-8 py-5 md:px-12 lg:px-16'>
+      <div className='bg-[#161616] text-white px-5 py-3 rounded-full text-[11px] font-semibold uppercase tracking-[0.12em]'>
+        Target Audience
+      </div>
 
-      <button className='bg-gray-200 px-6 py-2 uppercase rounded-full tracking-widest text-sm'>Digital Banking Platform</button>
-
+      <div className='bg-[#f0f0ee] border border-[#d7d7d2] text-[#171717] px-7 py-3 rounded-full text-[11px] font-semibold uppercase tracking-[0.14em]'>
+        Digital Banking Platform
+      </div>
     </div>
   )
 }
